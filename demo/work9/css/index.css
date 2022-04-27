@@ -1,0 +1,267 @@
+@media (min-width: 375px){
+	.container{
+		background: rgb(241,239,237);
+		width: 375px;
+	}
+}
+.h-f{
+	height: 50px;
+	background: rgb(0,194,174);
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+.h-f div{
+	position: relative;
+}
+.h-f>div:nth-child(1)>img{
+	position: absolute;
+	width: 30%;
+	top:17px;
+}
+.h-sea{
+	position: absolute!important;
+	top: 9px;
+	height: 30px;
+	width: 240px;
+	background: rgb(0,165,148);
+	border-radius: 2px;
+}
+.h-sea>img{
+	position: absolute;
+	width: 7%;
+	top: 8px;
+	left: 8px;
+}
+.h-f>div:nth-child(3){
+	position: relative;
+	left: 5px;
+	top: 9px;
+	font-size: 14px;
+}
+.h-f>div:nth-child(3)>img{
+	position: absolute;
+	width: 46%;
+	left:17px;
+	top: -6px;
+}
+.h-b{
+	margin-bottom: 15px;
+	height: 180px;
+	background: white;
+	border-bottom: 1px solid #ddd8ce;
+}
+.h-b>div{
+	position: relative;
+	height: 90px;
+}
+.h-c{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+    line-height: 90px;
+}
+.h-c p{
+	position: absolute;
+	top: 6px;
+	left: 14px;
+}
+.s-h{
+	height: 160px;
+	background: white;
+	margin-bottom: 15px;
+	border-bottom:1px solid #ddd8ce;
+	border-top:1px solid #ddd8ce;
+}
+.s-r{
+	border-right: 1px solid #ddd8ce;
+	height: 160px;
+}
+.s-l{
+	position: relative;
+	height: 80px;
+}
+.s-h>div{
+	padding: 5px 20px;
+}
+.s-h>div:nth-child(2){
+	border-bottom: 1px solid #ddd8ce;
+}
+.s-h>div:nth-child(3){
+	border-right: 1px solid #ddd8ce;
+}
+.s-h b{
+	color: rgb(0,165,0);
+	font-size: 18px;
+}
+.s-r>div{
+	width: 80px;
+	height: 80px;
+	background: gray;
+	border:1px solid #c0c0c0;
+}
+.s-ll>div{
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	width: 60px;
+	height: 60px;
+	background: gray;
+	border:1px solid #c0c0c0;
+}
+.s-l>b,.s-l>p{
+	display: inline-block;
+	margin-bottom: 0;
+}
+.s-h .s-lf div{
+	position: absolute;
+	background: gray;
+	border:1px solid #c0c0c0;
+	top: 30px;
+	right: 37px;
+	height: 40px;
+	width: 40px;
+}
+#time1,
+#time2,
+#time3{
+	display: inline-block;
+	background: gray;
+    height: 15px;
+    width: 20px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+}
+.s-f{
+	height: 75px;
+	background: white;
+	margin-bottom: 15px;
+	border-bottom:1px solid #ddd8ce;
+	border-top:1px solid #ddd8ce;
+
+}
+.s-f>div{
+    padding:10px 20px;
+}
+.s-f>div:nth-child(1){
+    border-right:1px solid #ddd8ce;
+}
+.s-f p,.s-f b{
+	display: inline-block;
+}
+.s-box{
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	float: right;
+	height: 60px;
+	width: 60px;
+	background: gray;
+}
+.f-h{
+	height: 450px;
+	background: white;
+	border-bottom:1px solid #ddd8ce;
+	border-top:1px solid #ddd8ce;
+}
+.f-b{
+	position: relative;
+	height: 40px;
+	background: rgb(143,198,234);
+}
+.f-b p{
+	line-height: 40px;
+	padding-left: 15px;
+	font-size: 20px;
+	color: #4bb0cc;
+}
+.f-b img{
+	width: 20px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.fh-f{
+	height: 49px;
+	border-bottom:1px solid #ddd8ce;
+}
+.fh-s{
+	height: 100px;
+	border-bottom:1px solid #ddd8ce;
+}
+.fh-f p{
+	line-height: 49px;
+	font-size: 20px;
+}
+.fh-box{
+	position: relative;
+	top:10px;
+	height: 80px;
+	width: 90px;
+	margin-right: 10px;
+	background: gray;
+	border:1px solid #ddd8ce;
+}
+.fh-s div{
+	display: inline-block;
+}
+.fh-r b{
+	font-size: 18px;
+}
+.fh-r>b>div{
+	margin-left: 5px;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	width: 50px;
+	border:1px solid rgb(255,154,0);
+	color:rgb(255,154,0);
+	border-radius: 3px;
+}
+.fh-rr{
+	float: right;
+}
+.fh-rr>p{
+    margin-top: 68px;
+	font-size: 12px;
+}
+.fh-r>b>i{
+	margin-left: 5px;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	color: gray;
+	line-height: 20px;
+}
+.fh-box>div{
+	position: absolute;
+	top: 11px;
+	left: -20px;
+	width: 80px;
+	height: 0;
+	border-top: 20px solid rgb(0,194,174);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	transform: rotate(135deg);
+}
+.fh-box>div>p{
+	position: absolute;
+	top: -18px;
+	left: 1px;
+	font-size: 12px;
+    color: white;
+	transform: rotate(178deg);
+}
